@@ -84,20 +84,9 @@ class Main extends React.Component {
           </p>
 
           <h3 className="major">UCT Residence Council</h3>
-          <h4>Software Developer Intern | Feb 2019 - Oct 2020</h4>
+          <h4>Treasurer | Feb 2019 - Oct 2020</h4>
           <p>Managed funds allocated to the council, and involved in executive-level decision making. 
           </p>
-
-          <h3 className="major">UCT Kopano Residence</h3>
-          <h4>Sub-committee Member | Sep 2018 - Oct 2019</h4>
-          <p>Audited financial statements and created expenditure reports. 
-          </p>
-
-
-          <h3 className="major">UCT Science Faculty</h3>
-          <h4>Class Representative | Feb 2018 - Nov 2018</h4>
-          <p>Communicated queries and requests from students to teaching staff</p>
-
 
           <h3 className="major">UKZN Dept. of Physics Quantum Research Unit</h3>
           <h4>Intern | Nov 2019 - Feb 2020</h4>
