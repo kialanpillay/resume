@@ -65,7 +65,13 @@ class Main extends React.Component {
           <h3 className="major">Amazon Web Services</h3>
           <h4>Software Developer Intern | Nov 2019 - Feb 2020</h4>
           <p>
-              Managed Deployments team.
+              EC2 Managed Deployments team.
+          </p>
+
+          <h3 className="major">UCT Kopano Residence</h3>
+          <h4>Head Mentor | Sep 2018 - Oct 2019</h4>
+          <p>Manage a team of residence mentors,
+            tasked with looking after the wellbeing of students, and offering support and guidance. 
           </p>
 
           <h3 className="major">Electrum Payments</h3>
@@ -114,21 +120,22 @@ class Main extends React.Component {
             <ul>
             <li>Java</li>
             <li>Python</li>
+            <li>ReactJS</li>
+            <li>Javascript</li>
             </ul>
             <h5>Proficient</h5>
             <ul>
-            <li>Matlab</li>
+            <li>Golang</li>
             <li>SQL</li>
             <li>R</li>
-            <li>Javascript</li>
-            <li>React</li>
+            <li>Matlab</li>
+            <li>Typescript</li>
             <li>HTML</li>
             <li>CSS</li>
             </ul>
             <h5>Elementary</h5> 
             <ul>
             <li>XML</li>
-            <li>Go</li>
             </ul>
           </p>
           <h3>Projects</h3>
@@ -151,15 +158,20 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Awards</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <ul>
+            <li>UCT Science Faculty Dean's List</li>
+            <li>Golden Key Honour Soceity Chapter Award</li>
+            <li>Golden Key Honour Soceity Membership</li>
+            <li>CSC1016S Class Medal</li>
+            <li>CSC2002S Certificate of Merit</li>
+            <li>CSC2001F Certificate of Merit</li>
+            <li>CSC1016S Certificate of Merit</li>
+            <li>CSC1015F Certificate of Merit</li>
+            <li>Physics SA Colours</li>
+            <li>Top 5 in KZN Province</li>
+            <li>Dux Proxime Accessit</li>
+            <li>Academic Honours</li>
+            </ul>
           {close}
         </article>
 
