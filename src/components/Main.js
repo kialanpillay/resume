@@ -31,9 +31,9 @@ class Main extends React.Component {
           <h2 className="major">About Me</h2>
           
           <p>
-          I am an 18-year-old, second-year student at the University of Cape Town, studying a Bachelor of Science, 
-          triple majoring in Computer Science, Mathematical Statistics, and Mathematics. 
-          I am passionate about all things related to Computer Science and IT, with a specific interest in 
+          I am an 19-year-old, third-year student at the University of Cape Town, studying a Bachelor of Science, 
+          majoring in Computer Science and Mathematical Statistics. 
+          I am passionate about my field, with a specific interest in 
           Artificial Intelligence and Knowledge Representation, and applications of these focus areas to solve 
           real-world intersectional issues.
           I matriculated at the age of 15, and have continually pushed boundaries and defied expectations. 
@@ -66,7 +66,10 @@ class Main extends React.Component {
           <h4>Software Developer Intern | Nov 2019 - Feb 2020</h4>
           <p>
               EC2 Managed Deployments team.
-          </p>
+              </p>
+              <p>Reduced operational load for the team by developing and implemented an information linking and tracking system. Typescript and React was used for the solution front-end, a Golang RESTful API server backend, and a DynamoDB repository for persistence.</p>
+              <p>Discovered key insights concerning deployments, and drafted a roadmap for future work by conducting an investigation into using Machine Learning for deployment failure predictive analytics, utilising Logistic Regression, ANNs and Bayesian Networks in Python.</p>
+          
 
           <h3 className="major">UCT Kopano Residence</h3>
           <h4>Head Mentor | Sep 2018 - Oct 2019</h4>
@@ -77,10 +80,10 @@ class Main extends React.Component {
           <h3 className="major">Electrum Payments</h3>
           <h4>Software Developer Intern | June 2019 - July 2020</h4>
           <p>
-              Developed a MVP for a new API documentation website for Electrum's open-source services, 
-              built with Gatsby, a React-based framework. Configured Docker files and continuous 
-              integration and deployment with CircleCI.
-          </p>
+          Developed a MVP for a new API Documentation website for Electrum's open-source services, built with Gatsby, a React-based framework. </p>
+           <p>Configured Docker files and continuous 
+              integration and deployment with CircleCI.</p>   
+          
 
 
           <h3 className="major">UCT Kopano Residence</h3>
@@ -96,8 +99,7 @@ class Main extends React.Component {
 
           <h3 className="major">UKZN Dept. of Physics Quantum Research Unit</h3>
           <h4>Intern | Nov 2019 - Feb 2020</h4>
-          <p>Received tutoring in elemenatry quantum mechanics.
-          Observed how research is conducted and learnt research methodologies.
+          <p>Received tutelage in research methodologies and elementary quantum mechanics at a Quantum Machine Learning workshop with international experts.
           </p>
          
 
@@ -133,10 +135,7 @@ class Main extends React.Component {
             <li>HTML</li>
             <li>CSS</li>
             </ul>
-            <h5>Elementary</h5> 
-            <ul>
-            <li>XML</li>
-            </ul>
+
           </p>
           <h3>Projects</h3>
           <p>
@@ -159,18 +158,20 @@ class Main extends React.Component {
         >
           <h2 className="major">Awards</h2>
           <ul>
-            <li>UCT Science Faculty Dean's List</li>
-            <li>Golden Key Honour Soceity Chapter Award</li>
-            <li>Golden Key Honour Soceity Membership</li>
-            <li>CSC1016S Class Medal</li>
-            <li>CSC2002S Certificate of Merit</li>
-            <li>CSC2001F Certificate of Merit</li>
-            <li>CSC1016S Certificate of Merit</li>
-            <li>CSC1015F Certificate of Merit</li>
-            <li>Physics SA Colours</li>
-            <li>Top 5 in KZN Province</li>
-            <li>Dux Proxime Accessit</li>
-            <li>Academic Honours</li>
+            <li>UCT Science Faculty Dean's List (2018, 2019)</li>
+            <li>UCT Science Faculty Merit Scholarship (2019, 2020)</li>
+            <li>UCT Science Faculty Entrance Scholarship (2018)</li>
+            <li>Golden Key Honour Soceity Chapter Award (2019)</li>
+            <li>Golden Key Honour Soceity Membership (2019)</li>
+            <li>CSC2002S Certificate of Merit (2019)</li>
+            <li>CSC2001F Certificate of Merit (2019)</li>
+            <li>CSC1016S Class Medal (2018)</li>
+            <li>CSC1016S Certificate of Merit (2018)</li>
+            <li>CSC1015F Certificate of Merit (2018)</li>
+            <li>Physics SA Colours (2017)</li>
+            <li>Top 5 in KZN Province (2016)</li>
+            <li>Dux Proxime Accessit (2016)</li>
+            <li>Academic Honours (2016)</li>
             </ul>
           {close}
         </article>
