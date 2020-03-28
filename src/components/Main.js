@@ -52,6 +52,38 @@ class Main extends React.Component {
         </article>
 
         <article
+          id="education"
+          className={`${this.props.article === 'education' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Education</h2>
+          
+          <h4>  
+          Bachelor of Science - University of Cape Town        
+          </h4>
+          <ul>
+            <li>Majors: Computer Science, Mathematical Statistics</li>
+            <li>GPA: 84.42%</li>
+          </ul>
+          <h4>  
+          Certificate - University of Cape Town/GetSmarter        
+          </h4>
+          <ul>
+            <li>Short Course: Cybersecurity</li>
+            <li>GPA: 91.00%</li>
+          </ul>
+          <h4>  
+          National Senior Certificate - Eden College Durban        
+          </h4>
+          <ul>
+            <li>GPA: 94.60%</li>
+          </ul>
+          {close}
+        </article>
+
+        <article
           id="experience"
           className={`${this.props.article === 'experience' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -64,10 +96,7 @@ class Main extends React.Component {
          
           <h3 className="major">Amazon Web Services</h3>
           <h4>Software Developer Intern | Nov 2019 - Feb 2020</h4>
-          <p>
-              EC2 Managed Deployments team.
-              </p>
-              <p>Reduced operational load for the team by developing and implemented an information linking and tracking system. Typescript and React was used for the solution front-end, a Golang RESTful API server backend, and a DynamoDB repository for persistence.</p>
+              <p>Reduced operational load for the Managed Deployments team by developing and implemented an information linking and tracking system. Typescript and React was used for the solution front-end, a Golang RESTful API server backend, and a DynamoDB repository for persistence.</p>
               <p>Discovered key insights concerning deployments, and drafted a roadmap for future work by conducting an investigation into using Machine Learning for deployment failure predictive analytics, utilising Logistic Regression, ANNs and Bayesian Networks in Python.</p>
           
 
