@@ -29,7 +29,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About Me</h2>
-          
+          <h3 className="major">Profile</h3>
           <p>
           I am an 19-year-old, third-year student at the University of Cape Town, studying a Bachelor of Science, 
           majoring in Computer Science and Mathematical Statistics. 
@@ -48,6 +48,27 @@ class Main extends React.Component {
           I believe these cultural experiences have enriched my cognition and broadened my outlook. 
           I am persistent in my quest to acquire new knowledge and skills and consistently improve myself.
           </p>
+          <h3 className="major">Education</h3>
+          <h4>  
+          Bachelor of Science - University of Cape Town        
+          </h4>
+          <ul>
+            <li>Computer Science, Mathematical Statistics</li>
+            <li>84.42%</li>
+          </ul>
+          <h4>  
+          Certificate - University of Cape Town/GetSmarter        
+          </h4>
+          <ul>
+            <li>Cybersecurity</li>
+            <li>91.00%</li>
+          </ul>
+          <h4>  
+          National Senior Certificate - Eden College Durban        
+          </h4>
+          <ul>
+            <li>94.60%</li>
+          </ul>
           {close}
         </article>
 
@@ -60,26 +81,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Education</h2>
           
-          <h4>  
-          Bachelor of Science - University of Cape Town        
-          </h4>
-          <ul>
-            <li>Majors: Computer Science, Mathematical Statistics</li>
-            <li>GPA: 84.42%</li>
-          </ul>
-          <h4>  
-          Certificate - University of Cape Town/GetSmarter        
-          </h4>
-          <ul>
-            <li>Short Course: Cybersecurity</li>
-            <li>GPA: 91.00%</li>
-          </ul>
-          <h4>  
-          National Senior Certificate - Eden College Durban        
-          </h4>
-          <ul>
-            <li>GPA: 94.60%</li>
-          </ul>
+         
           {close}
         </article>
 
