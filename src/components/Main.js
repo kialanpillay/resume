@@ -42,7 +42,7 @@ class Main extends React.Component {
           </p>
           <p>
           I relish problem-solving and I persevere despite any odds. 
-          I thrive in challenging and pressurized environments and am asociable, engaging andsynergetic
+          I thrive in challenging and pressurized environments and am a sociable, engaging and synergetic
           individual. I have been found to be well-mannered, humble, and respectful by my superiors and peers. 
           Having travelled extensively throughout my life, especially during my gap year, 
           I believe these cultural experiences have enriched my cognition and broadened my outlook. 
@@ -60,7 +60,7 @@ class Main extends React.Component {
           Certificate - University of Cape Town/GetSmarter        
           </h4>
           <ul>
-            <li>Cybersecurity</li>
+            <li>Fundamentals of Cybersecurity</li>
             <li>91.00%</li>
           </ul>
           <h4>  
@@ -128,7 +128,7 @@ class Main extends React.Component {
           <p>Managed funds allocated to the council, and involved in executive-level decision making. 
           </p>
 
-          <h3 className="major">UKZN Dept. of Physics Quantum Research Unit</h3>
+          <h3 className="major">UKZN Quantum Research Unit</h3>
           <h4>Intern | Nov 2019 - Feb 2020</h4>
           <p>Received tutelage in research methodologies and elementary quantum mechanics at a Quantum Machine Learning workshop with international experts.
           </p>
