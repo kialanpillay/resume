@@ -24,7 +24,7 @@ class Main extends React.Component {
   const handleSubmit = (e) => {
     e.preventDefault()
     const form = e.target
-    fetch('/kialan.co.za/', {
+    fetch('https://kialan.co.za/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
