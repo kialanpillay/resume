@@ -24,7 +24,7 @@ class Main extends React.Component {
   const handleSubmit = (e) => {
     e.preventDefault()
     const form = e.target
-    fetch('/', {
+    fetch('/kialan.co.za/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
@@ -236,7 +236,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form name="contact" method="POST" data-netlify="true" action="/" onSubmit={handleSubmit}>
+          <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="contact" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
