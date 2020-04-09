@@ -4,7 +4,7 @@
   $message= $_POST[‘message’];
 
   $email_from ='kialanpillay@gmail.com';
-  $email_subject ='Hi!';
+  $email_subject ='New Message Submission';
   $email_body = "Name: $name.\n".
                 "User Email: $visitors_email.\n".
                 "User Message: $message.\n".
@@ -12,4 +12,7 @@
   $headers="From: $email_from \r\n";
   $headers .="Reply-To: $visitors_email \r\n";
   mail($to,$email_subject,$email_body,$headers);
+  
+
+
  ?>
