@@ -153,6 +153,8 @@ class Main extends React.Component {
             <li>Python</li>
             <li>ReactJS</li>
             <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
             </ul>
             <h5>Proficient</h5>
             <ul>
@@ -161,8 +163,6 @@ class Main extends React.Component {
             <li>R</li>
             <li>Matlab</li>
             <li>Typescript</li>
-            <li>HTML</li>
-            <li>CSS</li>
             </ul>
 
           </p>
