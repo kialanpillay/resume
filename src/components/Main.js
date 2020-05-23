@@ -151,18 +151,19 @@ class Main extends React.Component {
             <ul>
             <li>Java</li>
             <li>Python</li>
+            <li>C++</li>
             <li>ReactJS</li>
-            <li>Javascript</li>
+            <li>JavaScript</li>
             <li>HTML</li>
             <li>CSS</li>
+            <li>SQL</li>
             </ul>
             <h5>Proficient</h5>
             <ul>
             <li>Golang</li>
-            <li>SQL</li>
             <li>R</li>
             <li>Matlab</li>
-            <li>Typescript</li>
+            <li>TypeScript</li>
             </ul>
 
           </p>
