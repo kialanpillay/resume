@@ -69,20 +69,6 @@ class Main extends React.Component {
           </ul>
           {close}
         </article>
-
-        <article
-          id="education"
-          className={`${this.props.article === 'education' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Education</h2>
-          
-         
-          {close}
-        </article>
-
         <article
           id="experience"
           className={`${this.props.article === 'experience' ? 'active' : ''} ${
@@ -103,7 +89,7 @@ class Main extends React.Component {
           <h3 className="major">UCT Kopano Residence</h3>
           <h4>Head Mentor | Sep 2018 - Oct 2019</h4>
           <p>Manage a team of residence mentors,
-            tasked with looking after the wellbeing of students, and offering support and guidance. 
+            tasked with looking after the wellbeing of students and offering support and guidance. 
           </p>
 
           <h3 className="major">Electrum Payments</h3>
@@ -144,7 +130,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Skills and Projects</h2>
+          <h2 className="major">Skills and Research</h2>
           <h3>Programming Languages</h3>
           <p>
             <h5>Experienced</h5>
@@ -167,7 +153,7 @@ class Main extends React.Component {
             </ul>
 
           </p>
-          <h3>Projects</h3>
+          <h3>Research</h3>
           <p>
             <ol>
             <li>Investigating the Generation of Consumer Energy Consumption Patterns in South Africa
@@ -188,6 +174,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Awards</h2>
           <ul>
+            <li>Investec IT Scholarship (2020)</li>
             <li>UCT Science Faculty Dean's List (2018, 2019)</li>
             <li>UCT Science Faculty Merit Scholarship (2019, 2020)</li>
             <li>UCT Science Faculty Entrance Scholarship (2018)</li>
@@ -199,7 +186,7 @@ class Main extends React.Component {
             <li>CSC1016S Certificate of Merit (2018)</li>
             <li>CSC1015F Certificate of Merit (2018)</li>
             <li>Physics SA Colours (2017)</li>
-            <li>Top 5 in KZN Province (2016)</li>
+            <li>Top 5 in Province (2016)</li>
             <li>Dux Proxime Accessit (2016)</li>
             <li>Academic Honours (2016)</li>
             </ul>
