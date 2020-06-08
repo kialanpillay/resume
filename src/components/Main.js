@@ -78,10 +78,11 @@ class Main extends React.Component {
         >
           <h2 className="major">Experience</h2>
           
-          
+          <h3 className="major">Nomanini</h3>
+          <h4>Software Developer Intern | July 2020</h4>
          
           <h3 className="major">Amazon Web Services</h3>
-          <h4>Software Developer Intern | Nov 2019 - Feb 2020</h4>
+          <h4>Software Development Engineer Intern | Nov 2019 - Feb 2020</h4>
               <p>Reduced operational load for the Managed Deployments team by developing and implemented an information linking and tracking system. Typescript and React was used for the solution front-end, a Golang RESTful API server backend, and a DynamoDB repository for persistence.</p>
               <p>Discovered key insights concerning deployments, and drafted a roadmap for future work by conducting an investigation into using Machine Learning for deployment failure predictive analytics, utilising Logistic Regression, ANNs and Bayesian Networks in Python.</p>
           
@@ -178,8 +179,8 @@ class Main extends React.Component {
             <li>UCT Science Faculty Dean's List (2018, 2019)</li>
             <li>UCT Science Faculty Merit Scholarship (2019, 2020)</li>
             <li>UCT Science Faculty Entrance Scholarship (2018)</li>
-            <li>Golden Key Honour Soceity Chapter Award (2019)</li>
-            <li>Golden Key Honour Soceity Membership (2019)</li>
+            <li>Golden Key Honour Society Chapter Award (2019)</li>
+            <li>Golden Key Honour Society Membership (2019)</li>
             <li>CSC2002S Certificate of Merit (2019)</li>
             <li>CSC2001F Certificate of Merit (2019)</li>
             <li>CSC1016S Class Medal (2018)</li>
