@@ -76,7 +76,7 @@ class Main extends React.Component {
           <h2 className="major">Experience</h2>
 
           <h3 className="major">University of Cape Town</h3>
-          <h4>Computer Science 2B Tutor | Aug 2020 - December 2020</h4>
+          <h4>Computer Science 2B Tutor | 2020</h4>
           <p>
             Appointed as a tutor for second-year Computer Science courses in the
             Science Faculty.
@@ -86,7 +86,7 @@ class Main extends React.Component {
             assistance to students where required.
           </p>
           <h3 className="major">Nomanini</h3>
-          <h4>Software Developer Intern | July 2020</h4>
+          <h4>Software Developer Intern | 2020</h4>
           <p>
             Developed a Python package to extract and process data that measures
             merchant health, to generate a set of credit scores and loan offers
@@ -98,7 +98,7 @@ class Main extends React.Component {
             networks, with Keras.
           </p>
           <h3 className="major">University of Cape Town</h3>
-          <h4>Computer Science 2A Tutor | Aug 2020 - December 2020</h4>
+          <h4>Computer Science 2A Tutor | 2020</h4>
           <p>
             Appointed as a tutor for second-year Computer Science courses in the
             Science Faculty.
@@ -108,7 +108,7 @@ class Main extends React.Component {
             assistance to students where required.
           </p>
           <h3 className="major">Amazon Web Services</h3>
-          <h4>Software Development Engineer Intern | Nov 2019 - Feb 2020</h4>
+          <h4>Software Development Engineer Intern | 2019</h4>
           <p>
             Reduced operational load for the Managed Deployments team by
             developing and implemented an information linking and tracking
@@ -123,7 +123,7 @@ class Main extends React.Component {
             utilising Logistic Regression, ANNs and Bayesian Networks in Python.
           </p>
           <h3 className="major">Electrum Payments</h3>
-          <h4>Software Developer Intern | June 2019 - July 2020</h4>
+          <h4>Software Developer Intern | 2019</h4>
           <p>
             Developed a MVP for a new API Documentation website for Electrum's
             open-source services, built with Gatsby, a React-based framework.{" "}
@@ -133,7 +133,7 @@ class Main extends React.Component {
             with CircleCI.
           </p>
           <h3 className="major">UKZN Quantum Research Unit</h3>
-          <h4>Intern | Nov 2019 - Feb 2020</h4>
+          <h4>Intern | 2017</h4>
           <p>
             Received tutelage in research methodologies and elementary quantum
             mechanics at a Quantum Machine Learning workshop with international
@@ -168,7 +168,7 @@ class Main extends React.Component {
             <ul>
               <li>Golang</li>
               <li>R</li>
-              <li>Matlab</li>
+              <li>MATLAB</li>
               <li>TypeScript</li>
             </ul>
           </p>
@@ -194,7 +194,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Awards</h2>
           <ul>
-            <li>Computer Science BSG Prize(2020)</li>
+            <li>Computer Science BSG Prize (2020)</li>
             <li>Investec IT Scholarship (2020)</li>
             <li>UCT Science Faculty Dean's List (2018, 2019)</li>
             <li>UCT Science Faculty Merit Scholarship (2019, 2020)</li>
