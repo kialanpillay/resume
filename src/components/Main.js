@@ -53,7 +53,7 @@ class Main extends React.Component {
           <h4>Bachelor of Science - University of Cape Town</h4>
           <ul>
             <li>Computer Science, Mathematical Statistics</li>
-            <li>86.22%</li>
+            <li>86.49%</li>
           </ul>
           <h4>Certificate - University of Cape Town/GetSmarter</h4>
           <ul>
@@ -74,7 +74,8 @@ class Main extends React.Component {
           style={{ display: "none" }}
         >
           <h2 className="major">Experience</h2>
-
+          <h3 className="major">Amazon Web Services</h3>
+          <h4>Software Development Engineer Intern | 2020</h4>
           <h3 className="major">University of Cape Town</h3>
           <h4>Computer Science 2B Tutor | 2020</h4>
           <p>
@@ -194,6 +195,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Awards</h2>
           <ul>
+            <li>UCT Plus Silver Award (2020)</li>
             <li>Computer Science BSG Prize (2020)</li>
             <li>Investec IT Scholarship (2020)</li>
             <li>UCT Science Faculty Dean's List (2018, 2019)</li>
@@ -201,6 +203,7 @@ class Main extends React.Component {
             <li>UCT Science Faculty Entrance Scholarship (2018)</li>
             <li>Golden Key Honour Society Chapter Award (2019)</li>
             <li>Golden Key Honour Society Membership (2019)</li>
+            <li>UCT Plus Gold Award (2020)</li>
             <li>CSC2002S Certificate of Merit (2019)</li>
             <li>CSC2001F Certificate of Merit (2019)</li>
             <li>CSC1016S Class Medal (2018)</li>
