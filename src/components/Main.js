@@ -29,15 +29,15 @@ class Main extends React.Component {
           <h2 className="major">About Me</h2>
           <h3 className="major">Profile</h3>
           <p>
-            I am an 19-year-old, third-year student at the University of Cape
-            Town, studying a Bachelor of Science, majoring in Computer Science
-            and Mathematical Statistics. I am passionate about my field, with a
-            specific interest in Artificial Intelligence and Knowledge
-            Representation, and applications of these focus areas to solve
-            real-world intersectional issues. I matriculated at the age of 15,
-            and have continually pushed boundaries and defied expectations. I am
-            a highly creative, driven and determined individual, that strives
-            for holistic excellence in all aspects of my life.
+            I am a 20-year-old South African student at the University of Cape
+            Town, studying towards a BSc (Hons) in Computer Science. I am
+            passionate about my field, with a specific interest in Artificial
+            Intelligence and Deep Learning, and applications of intelligent
+            systems to solve interdisciplinary problems. I completed secondary
+            school at the age of 15 and have continually pushed boundaries
+            throughout my academic career. I am a highly creative, driven and
+            determined individual, that strives for holistic excellence in all
+            spheres of life.
           </p>
           <p>
             I relish problem-solving and I persevere despite any odds. I thrive
@@ -47,9 +47,15 @@ class Main extends React.Component {
             Having travelled extensively throughout my life, especially during
             my gap year, I believe these cultural experiences have enriched my
             cognition and broadened my outlook. I am persistent in my quest to
-            acquire new knowledge and skills and consistently improve myself.
+            acquire new knowledge, consistently improve and meaningfully
+            contribute to society.
           </p>
           <h3 className="major">Education</h3>
+          <h4>Bachelor of Science Honours - University of Cape Town</h4>
+          <ul>
+            <li>Computer Science</li>
+            <li>91.75%</li>
+          </ul>
           <h4>Bachelor of Science - University of Cape Town</h4>
           <ul>
             <li>Computer Science, Mathematical Statistics</li>
@@ -74,17 +80,49 @@ class Main extends React.Component {
           style={{ display: "none" }}
         >
           <h2 className="major">Experience</h2>
-          <h3 className="major">Amazon Web Services</h3>
-          <h4>Software Development Engineer Intern | 2020</h4>
-          <h3 className="major">University of Cape Town</h3>
-          <h4>Computer Science 2B Tutor | 2020</h4>
+          <h3 className="major">DUCAT</h3>
+          <h4>Software Developer | 2021</h4>
           <p>
-            Appointed as a tutor for second-year Computer Science courses in the
-            Science Faculty.
+            Responsibilities include developing and testing functionality for
+            proprietary automated trading and brokerage platforms.
+          </p>
+          <h3 className="major">Center for Artificial Intelligence Research</h3>
+          <h4>Research Assistant | 2020 - 2021</h4>
+          <p>
+            Research Intern in the Adaptive and Cognitive Systems Lab at the
+            Center for Artificial Intelligence Research (CAIR). Tasks involved a
+            cycle of documentation, testing and refactoring of AutoML4TS, an
+            experimental machine learning Python platform for automatic machine
+            learning for time-series data.
           </p>
           <p>
-            Responsibilities include marking tests and assignments and providing
-            assistance to students where required.
+            Designed and built a ReactJS console for data visualization and
+            hyperparameter configuration to support AutoML4TS experiments.
+          </p>
+          <h3 className="major">University of Cape Town</h3>
+          <h4>Tutor | 2020 - 2021</h4>
+          <p>
+            Appointed as a tutor for Computer Science 2A, 2B, 3A, 3B, C++ and
+            Machine Learning, Stochastic Processes and Time Series and Linear
+            Models
+          </p>
+          <p>
+            Responsibilities include facilitating tutorial sessions, marking
+            tests and assignments, and providing assistance to students where
+            required.
+          </p>
+          <h3 className="major">Amazon Web Services</h3>
+          <h4>Software Development Engineer Intern | 2020 - 2021</h4>
+          <p>
+            Enhanced developer engagement and reduced noisy communications by
+            designing and implementing a subscription-based asynchronous
+            notification system for deployment-related events.
+          </p>
+          <p>
+            TypeScript and ReactJS were used for the solution front-end, a
+            Kotlin service, an RDS repository for persistence and Golang and AWS
+            StepFunctions for the workflows that handle the processing and
+            vending of notifications.
           </p>
           <h3 className="major">Nomanini</h3>
           <h4>Software Developer Intern | 2020</h4>
@@ -109,11 +147,11 @@ class Main extends React.Component {
             assistance to students where required.
           </p>
           <h3 className="major">Amazon Web Services</h3>
-          <h4>Software Development Engineer Intern | 2019</h4>
+          <h4>Software Development Engineer Intern | 2019 - 2020</h4>
           <p>
             Reduced operational load for the Managed Deployments team by
             developing and implemented an information linking and tracking
-            system. TypeScript and React JS was used for the solution front-end,
+            system. TypeScript and ReactJS was used for the solution front-end,
             a Golang RESTful API server backend, and a DynamoDB repository for
             persistence.
           </p>
@@ -159,8 +197,8 @@ class Main extends React.Component {
               <li>Java</li>
               <li>Python</li>
               <li>C++</li>
-              <li>ReactJS</li>
               <li>JavaScript</li>
+              <li>TypeScript</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>SQL</li>
@@ -168,9 +206,10 @@ class Main extends React.Component {
             <h5>Proficient</h5>
             <ul>
               <li>Golang</li>
+              <li>Kotlin</li>
+              <li>Haskell</li>
               <li>R</li>
               <li>MATLAB</li>
-              <li>TypeScript</li>
             </ul>
           </p>
           <h3>Research</h3>
@@ -179,6 +218,14 @@ class Main extends React.Component {
               <li>
                 Investigating the Generation of Consumer Energy Consumption
                 Patterns in South Africa using Density-based Clustering
+              </li>
+            </ol>
+          </p>
+          <p>
+            <ol>
+              <li>
+                Investigating the Application of Graph Neural Networks to Stock
+                Market Prediction
               </li>
             </ol>
           </p>
@@ -195,6 +242,8 @@ class Main extends React.Component {
         >
           <h2 className="major">Awards</h2>
           <ul>
+            <li>National Research Foundation FCS Honours Scholarship(2021)</li>
+            <li>UCT Council Honours Merit Scholarship (2021)</li>
             <li>UCT Plus Silver Award (2020)</li>
             <li>Computer Science BSG Prize (2020)</li>
             <li>Investec IT Scholarship (2020)</li>
