@@ -224,6 +224,13 @@ class Main extends React.Component {
           <p>
             <ol>
               <li>
+                AutoML4TS: An Automatic Machine Learning Platform for Time Series Prediction
+              </li>
+            </ol>
+          </p>
+          <p>
+            <ol>
+              <li>
                 Investigating the Application of Graph Neural Networks to Stock
                 Market Prediction
               </li>
@@ -242,7 +249,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Awards</h2>
           <ul>
-            <li>National Research Foundation FCS Honours Scholarship(2021)</li>
+            <li>National Research Foundation FCS Honours Scholarship (2021)</li>
             <li>UCT Council Honours Merit Scholarship (2021)</li>
             <li>UCT Plus Silver Award (2020)</li>
             <li>Computer Science BSG Prize (2020)</li>
@@ -259,7 +266,7 @@ class Main extends React.Component {
             <li>CSC1016S Certificate of Merit (2018)</li>
             <li>CSC1015F Certificate of Merit (2018)</li>
             <li>Physics SA Colours (2017)</li>
-            <li>Top 3 in Province (2016)</li>
+            <li>Provincial Top 3 in Independant Schools (2016)</li>
             <li>Dux Proxime Accessit (2016)</li>
             <li>Academic Honours (2016)</li>
           </ul>
